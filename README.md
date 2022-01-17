@@ -10,6 +10,20 @@ an AP Computer Science Principles project submission.
 * Several example projects and their scores are available at the bottom of this
   page: [LINK](https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam)
 
+- [Project Overview](#project-overview)
+  - [Part 0: Create a Repository for your Project](#part-0-create-a-repository-for-your-project)
+  - [Part 1: Write a Proposal](#part-1-write-a-proposal)
+    - [Proficient Requirements](#proficient-requirements)
+    - [Advanced Requirements](#advanced-requirements)
+    - [Proposal Format](#proposal-format)
+      - [Overview](#overview)
+      - [High Level Flowchart](#high-level-flowchart)
+      - [Methods](#methods)
+  - [Part 2: Implement the project (~3 weeks)](#part-2-implement-the-project-3-weeks)
+  - [Part 3: Written Response](#part-3-written-response)
+  - [Example Proposal](#example-proposal)
+  - [Project Ideas](#project-ideas)
+
 ## Part 0: Create a Repository for your Project
 
 Before starting, you should create a repository for your project. If you're not

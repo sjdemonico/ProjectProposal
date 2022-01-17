@@ -1,5 +1,15 @@
 # Setup
 
+- [Setup](#setup)
+  - [Create a New Repository](#create-a-new-repository)
+  - [Add Mx. Collard as a Collaborator](#add-mx-collard-as-a-collaborator)
+  - [Add a Development Branch](#add-a-development-branch)
+  - [Push your branch to GitHub](#push-your-branch-to-github)
+  - [Initialize Your Project](#initialize-your-project)
+    - [C# Project](#c-project)
+    - [Unity Project](#unity-project)
+  - [Create a Pull Request](#create-a-pull-request)
+
 ## Create a New Repository
 
 Start by making a new repository
