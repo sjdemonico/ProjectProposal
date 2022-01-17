@@ -13,6 +13,7 @@ an AP Computer Science Principles project submission.
 - [Project Overview](#project-overview)
   - [Part 0: Create a Repository for your Project](#part-0-create-a-repository-for-your-project)
   - [Part 1: Write a Proposal](#part-1-write-a-proposal)
+    - [Example Proposal](#example-proposal)
     - [Proficient Requirements](#proficient-requirements)
     - [Advanced Requirements](#advanced-requirements)
     - [Proposal Format](#proposal-format)
@@ -21,7 +22,6 @@ an AP Computer Science Principles project submission.
       - [Methods](#methods)
   - [Part 2: Implement the project (~3 weeks)](#part-2-implement-the-project-3-weeks)
   - [Part 3: Written Response](#part-3-written-response)
-  - [Example Proposal](#example-proposal)
   - [Project Ideas](#project-ideas)
 
 ## Part 0: Create a Repository for your Project
@@ -47,6 +47,11 @@ through all of the components that you will need to implement. It is very easy
 to over scope and start working on a project that is too large to finish. I
 recommend starting small, maybe implement a portion of a bigger project and
 then, if there is extra time, add more onto it.
+
+### Example Proposal
+
+An example proposal of a guessing game called Wordle is here:
+[LINK](Examples/Wordle.md)
 
 ### Proficient Requirements
 
@@ -131,12 +136,6 @@ After you have finished your project. You will complete a written response which
 matches the format of an AP Project submission. This includes recording a short,
 less than 1 minute, video. The response template can be found here:
 [LINK](WrittenResponse.md)
-
-
-## Example Proposal
-
-An example proposal of a guessing game called Wordle is here:
-[LINK](Examples/Wordle.md)
 
 
 ## Project Ideas
