@@ -10,6 +10,22 @@ an AP Computer Science Principles project submission.
 * Several example projects and their scores are available at the bottom of this
   page: [LINK](https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam)
 
+## Part 0: Create a Repository for your Project
+
+Before starting, you should create a repository for your project. If you're not
+sure how to do this, you can follow the steps here: [LINK](Setup.md)
+
+Here are the high level steps:
+
+1. Create a new repository (may be private)
+2. Add Mx. Collard as a Collaborator
+3. Clone the repository
+4. Create a development branch
+5. Initialize your project
+6. Commit and push your initialized project
+7. Create a pull request from `develop` to `main` branch
+8. Add Mx. Collard as a reviewer
+
 ## Part 1: Write a Proposal
 
 First, you will propose a project and create a design document to help you think
