@@ -13,7 +13,7 @@ an AP Computer Science Principles project submission.
 - [Project Overview](#project-overview)
   - [Part 0: Create a Repository for your Project](#part-0-create-a-repository-for-your-project)
   - [Part 1: Write a Proposal](#part-1-write-a-proposal)
-    - [Example Proposal](#example-proposal)
+    - [Example Proposals](#example-proposals)
     - [Proficient Requirements](#proficient-requirements)
     - [Advanced Requirements](#advanced-requirements)
     - [Proposal Format](#proposal-format)
@@ -51,10 +51,12 @@ to over scope and start working on a project that is too large to finish. I
 recommend starting small, maybe implement a portion of a bigger project and
 then, if there is extra time, add more onto it.
 
-### Example Proposal
+### Example Proposals
 
 An example proposal of a guessing game called Wordle is here:
 [LINK](Examples/Wordle.md)
+
+An example proposal for a High Score Tracker: [LINK](Examples/HighScoreTracker.md)
 
 ### Proficient Requirements
 
@@ -155,43 +157,43 @@ solid idea of how to meet the proficient requirements.
 
 1. A guessing game like Mastermind or Wordle:
    [LINK](https://www.powerlanguage.co.uk/wordle/)
-2. A MadLibs game
-3. A High Score tracker
-4. A Random Name Generator: [LINK](images/superhero-name.jpg)
-5. A Personality Quiz:
+2. A High Score tracker
+3. A Random Name Generator: [LINK](images/superhero-name.jpg)
+4. A Personality Quiz:
    [LINK](https://ohmy.disney.com/quiz/2014/06/25/quiz-which-disney-princess-are-you/)
-6. A binary to hex and hex to binary quiz program
-7. Extend the Cipher assignment to use a dictionary to determine the correct
+5. A binary to hex and hex to binary quiz program
+6. Extend the Cipher assignment to use a dictionary to determine the correct
    message
-8.  A program that prints text one character at a time (Dialogue System)
-9.  A program that prints color text based on the words in the string (Dialogue
+7.  A program that prints text one character at a time (Dialogue System)
+8.  A program that prints color text based on the words in the string (Dialogue
     System)
-10. A shopping cart / store in a video game
-11. A To Do List
-12. A hacker simulator: [LINK](https://hackertyper.net/)
-13. A Loot Generator
-14. Inspirational quote generator
-15. ATM / Bank Account Simulator
-16. Prime Number Generator
-17. Conway's Game of Life: [LINK](https://playgameoflife.com/)
+9.  A shopping cart / store in a video game
+10. A To Do List
+11. A hacker simulator: [LINK](https://hackertyper.net/)
+12. A Loot Generator
+13. Inspirational quote generator
+14. ATM / Bank Account Simulator
+15. Prime Number Generator
+16. Conway's Game of Life: [LINK](https://playgameoflife.com/)
 
 ### Level 2
 
 1. A turn based combat system
-2. A text based adventure
-3. A program that predicts the Weather using historical data:
+2. A MadLibs game
+3. A text based adventure
+4. A program that predicts the Weather using historical data:
     [LINK](https://www.ncdc.noaa.gov/cdo-web/search)
-4. A flash card program for studying
-5. A program that counts the number of occurrence of a word / words in a text file
-6. A memory game like Simon or Bop-it: [LINK](http://www.freesimon.org/)
-7. A Point and Click adventure / Escape Room game
-8. An asteroids clone
-9. A text template filler (Email Newsletter)
-10. Snake game clone
-11. Stock Market ticker: [LINK](https://finnhub.io/)
-12. A Graphing Calculator to show what a function with a single variable looks
+5. A flash card program for studying
+6. A program that counts the number of occurrence of a word / words in a text file
+7. A memory game like Simon or Bop-it: [LINK](http://www.freesimon.org/)
+8. A Point and Click adventure / Escape Room game
+9. An asteroids clone
+10. A text template filler (Email Newsletter)
+11. Snake game clone
+12. Stock Market ticker: [LINK](https://finnhub.io/)
+13. A Graphing Calculator to show what a function with a single variable looks
     like
-13. Convert a CSV file to a line / bar / pie chart
+14. Convert a CSV file to a line / bar / pie chart
 
 
 ### Level 3+
