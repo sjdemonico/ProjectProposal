@@ -23,6 +23,9 @@ an AP Computer Science Principles project submission.
   - [Part 2: Implement the project (~3 weeks)](#part-2-implement-the-project-3-weeks)
   - [Part 3: Written Response](#part-3-written-response)
   - [Project Ideas](#project-ideas)
+    - [Level 1](#level-1)
+    - [Level 2](#level-2)
+    - [Level 3+](#level-3)
 
 ## Part 0: Create a Repository for your Project
 
@@ -141,51 +144,63 @@ less than 1 minute, video. The response template can be found here:
 ## Project Ideas
 
 If you're having trouble coming up with a project idea, you can use any of the
-following project ideas. Be sure to talk it through with Mx. Collard to get a
+following project ideas. **Note**: Each of the projects could range greatly in
+difficulty depending on how it is implemented. However, an attempt to sort them
+into difficulty categories was made. You should however take this with a grain
+of salt as a Level 1 project could easily become a Level 3+ project without
+properly scoping the project. Be sure to talk it through with Mx. Collard to get a
 solid idea of how to meet the proficient requirements.
+
+### Level 1
 
 1. A guessing game like Mastermind or Wordle:
    [LINK](https://www.powerlanguage.co.uk/wordle/)
 2. A MadLibs game
-3. A turn based combat system
-4. Any game that has a High Score list
-5. A text based adventure
-6. A Random Name Generator: [LINK](images/superhero-name.jpg)
-7. A Personality Quiz:
+3. A High Score tracker
+4. A Random Name Generator: [LINK](images/superhero-name.jpg)
+5. A Personality Quiz:
    [LINK](https://ohmy.disney.com/quiz/2014/06/25/quiz-which-disney-princess-are-you/)
-8. A binary to hex and hex to binary quiz program
-9. Extend the Cipher assignment to use a dictionary to determine the correct
+6. A binary to hex and hex to binary quiz program
+7. Extend the Cipher assignment to use a dictionary to determine the correct
    message
-10. A program that prints text one character at a time (Dialogue System)
-11. A program that prints color text based on the words in the string (Dialogue
+8.  A program that prints text one character at a time (Dialogue System)
+9.  A program that prints color text based on the words in the string (Dialogue
     System)
-12. A program that predicts the Weather using historical data:
+10. A shopping cart / store in a video game
+11. A To Do List
+12. A hacker simulator: [LINK](https://hackertyper.net/)
+13. A Loot Generator
+14. Inspirational quote generator
+15. ATM / Bank Account Simulator
+16. Prime Number Generator
+17. Conway's Game of Life: [LINK](https://playgameoflife.com/)
+
+### Level 2
+
+1. A turn based combat system
+2. A text based adventure
+3. A program that predicts the Weather using historical data:
     [LINK](https://www.ncdc.noaa.gov/cdo-web/search)
-13. A flash card program for studying
-14. A program that counts the number of occurrence of a word / words in a text
-    file
-15. A Scrabble score calculator
-16. A shopping cart / store in a video game
-17. A memory game like Simon or Bop-it: [LINK](http://www.freesimon.org/)
-18. A To Do List
-19. A top down 2D game that stores maps as a text file
-20. An app that displays the local Weather Forecast by getting live information
-    from the internet: (https://openweathermap.org/api)
-21. A hacker simulator: [LINK](https://hackertyper.net/)
-22. A Loot Generator
-23. A Point and Click adventure / Escape Room game
-24. An asteroids clone
-25. A Tower Defense Game
-26. A text template filler (Email Newsletter)
-27. A black jack game
-28. Inspirational quote generator
-29. Breakout clone
-30. Snake game clone
-31. Stock Market ticker: [LINK](https://finnhub.io/)
-32. Sports Statistics App: [LINK](https://www.thesportsdb.com/)
-33. ATM / Bank Account Simulator
-34. Prime Number Generator
-35. A Graphing Calculator to show what a function with a single variable looks
+4. A flash card program for studying
+5. A program that counts the number of occurrence of a word / words in a text file
+6. A memory game like Simon or Bop-it: [LINK](http://www.freesimon.org/)
+7. A Point and Click adventure / Escape Room game
+8. An asteroids clone
+9. A text template filler (Email Newsletter)
+10. Snake game clone
+11. Stock Market ticker: [LINK](https://finnhub.io/)
+12. A Graphing Calculator to show what a function with a single variable looks
     like
-36. Convert a CSV file to a line / bar / pie chart
-37. Conway's Game of Life: [LINK](https://playgameoflife.com/)
+13. Convert a CSV file to a line / bar / pie chart
+
+
+### Level 3+
+
+1. A Scrabble score calculator
+2. A top down 2D game that stores maps as a text file
+3. An app that displays the local Weather Forecast by getting live information
+    from the internet: (https://openweathermap.org/api)
+4. A Tower Defense Game [Tutorial](https://www.youtube.com/watch?v=beuoNuK2tbk&ab_channel=Brackeys)
+5. A black jack game
+6. Breakout clone
+7. Sports Statistics App: [LINK](https://www.thesportsdb.com/)
