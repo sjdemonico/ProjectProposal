@@ -68,6 +68,7 @@ Your project should meet all of these requirements:
     * Contains a loop that iterates (no `while(false)` loops)
     * Is a significant part of your overall program
 4. Iterates over the list from #1. This can be done in your method for #3.
+    * Alternatively, you can randomly select items from the list 
 
 ### Advanced Requirements
 
