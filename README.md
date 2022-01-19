@@ -53,10 +53,9 @@ then, if there is extra time, add more onto it.
 
 ### Example Proposals
 
-An example proposal of a guessing game called Wordle is here:
-[LINK](Examples/Wordle.md)
-
-An example proposal for a High Score Tracker: [LINK](Examples/HighScoreTracker.md)
+* Wordle, a word guessing game: [LINK](Examples/Wordle.md)
+* High Score Tracker: [LINK](Examples/HighScoreTracker.md)
+* Random Name Generator: [LINK](Examples/Random%20Name%20Generator.md)
 
 ### Proficient Requirements
 
