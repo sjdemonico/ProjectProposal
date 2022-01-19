@@ -17,15 +17,9 @@ an AP Computer Science Principles project submission.
     - [Proficient Requirements](#proficient-requirements)
     - [Advanced Requirements](#advanced-requirements)
     - [Proposal Format](#proposal-format)
-      - [Overview](#overview)
-      - [High Level Flowchart](#high-level-flowchart)
-      - [Methods](#methods)
   - [Part 2: Implement the project (~3 weeks)](#part-2-implement-the-project-3-weeks)
   - [Part 3: Written Response](#part-3-written-response)
   - [Project Ideas](#project-ideas)
-    - [Level 1](#level-1)
-    - [Level 2](#level-2)
-    - [Level 3+](#level-3)
 
 ## Part 0: Create a Repository for your Project
 
@@ -86,13 +80,13 @@ challenge yourself to learn and grow.
 Your proposal will have 3 main sections: Overview, High Level Flowchart, and
 Methods. Below you will find an overview of each section:
 
-#### Overview
+#### Overview <!-- omit in toc --> 
 
 Write 3 - 5 sentences explaining your programs purpose and describing the user's
 inputs and program's outputs. This will become a guide for the first section of
 your written response.
 
-#### High Level Flowchart
+#### High Level Flowchart <!-- omit in toc --> 
 
 Think about what your program must do to accomplish its goal. Draw a high level
 flowchart of the entire process from start to finish. In this flowchart, you may
@@ -102,7 +96,7 @@ from one part of your program to the next. This will start as a draft and you
 will likely make revisions throughout the project to match any changes you make
 during implementation.
 
-#### Methods
+#### Methods <!-- omit in toc --> 
 
 After you have a high level flowchart of your project, find the complex sections
 and break these out to create sub flowcharts. These will be your methods. You
@@ -152,7 +146,7 @@ of salt as a Level 1 project could easily become a Level 3+ project without
 properly scoping the project. Be sure to talk it through with Mx. Collard to get a
 solid idea of how to meet the proficient requirements.
 
-### Level 1
+### Level 1 <!-- omit in toc --> 
 
 1. A guessing game like Mastermind or Wordle:
    [LINK](https://www.powerlanguage.co.uk/wordle/)
@@ -175,7 +169,7 @@ solid idea of how to meet the proficient requirements.
 15. Prime Number Generator
 16. Conway's Game of Life: [LINK](https://playgameoflife.com/)
 
-### Level 2
+### Level 2 <!-- omit in toc --> 
 
 1. A turn based combat system
 2. A MadLibs game
@@ -195,7 +189,7 @@ solid idea of how to meet the proficient requirements.
 14. Convert a CSV file to a line / bar / pie chart
 
 
-### Level 3+
+### Level 3+ <!-- omit in toc --> 
 
 1. A Scrabble score calculator
 2. A top down 2D game that stores maps as a text file
