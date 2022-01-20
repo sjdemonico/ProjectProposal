@@ -50,6 +50,7 @@ then, if there is extra time, add more onto it.
 * Wordle, a word guessing game: [LINK](Examples/Wordle.md)
 * High Score Tracker: [LINK](Examples/HighScoreTracker.md)
 * Random Name Generator: [LINK](Examples/Random%20Name%20Generator.md)
+* Personality Quiz: [LINK](Examples/PersonalityQuiz.md)
 
 ### Proficient Requirements
 
