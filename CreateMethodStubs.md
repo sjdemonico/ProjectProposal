@@ -5,6 +5,11 @@ The first thing you should do for your project is to create "stubs" for the
 methods you will write. This will allow you to start testing each of your
 components independently of each other.
 
+If you're having trouble remembering how methods work, you can review them in:
+
+* C# Cookbook: [LINK](https://github.com/jcollard/CSharpCookbook/blob/main/StaticMethods.md)
+* C# Player's Guide, Level 13: [Google Classroom](https://drive.google.com/file/d/14Da3-VgfONhMoEfjMwCd217n8R2EySSe/view)
+
 ## 1. Generate a Program.cs with a Main Method
 
 If you have not done so already, follow the instructions in [Step 0](Setup.md) to generate a
