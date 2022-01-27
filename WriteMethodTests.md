@@ -3,7 +3,19 @@
 Now that you have an outline of your project and method stubs you can call, you
 can begin creating tests for your methods. This is important as it will provide
 you with confidence that each component of your project works independently.
-Only when each component is working independently should you combine them together.
+Only when each component is working independently should you combine them
+together.
+
+- [Part 2.2: Write Method Tests](#part-22-write-method-tests)
+  - [Before Starting](#before-starting)
+  - [1. Create a Test Class for Each Method](#1-create-a-test-class-for-each-method)
+  - [2. Add a Test Method to Each of your Classes](#2-add-a-test-method-to-each-of-your-classes)
+  - [3. Write a TestAll Method in your Program.cs file](#3-write-a-testall-method-in-your-programcs-file)
+  - [4. Run Your Tests](#4-run-your-tests)
+  - [5. Add Tests](#5-add-tests)
+  - [Commit, Tag, and Push your tests](#commit-tag-and-push-your-tests)
+  - [6. Run Your Tests and Update your Code Until they pass](#6-run-your-tests-and-update-your-code-until-they-pass)
+    - [Example Implementing LoadFile](#example-implementing-loadfile)
 
 ## Before Starting
 
@@ -27,13 +39,13 @@ You would create two new files:
 
 Within each file, you should add a class that matches the filename.
 
-### TestLoadFile.cs
+### TestLoadFile.cs <!-- omit in toc --> 
 
 ![Example TestLoadFile](images/example_file.png)
 
 **Note**: Your namespace should match the namespace from your `Program.cs` file.
 
-### TestGetUserSelection.cs
+### TestGetUserSelection.cs <!-- omit in toc --> 
 
 ![Test Get User Selection](images/TestGetUserSelection.png)
 
@@ -55,11 +67,11 @@ tested method likely works. Otherwise, you will return `false`. Because you
 have not added any actual tests yet, we return `false` to indicate that this
 method probably does not work as intended yet.
 
-### TestLoadFile.cs
+### TestLoadFile.cs <!-- omit in toc --> 
 
 ![TestLoadFile](images/TestLoadFileRunTest.png)
 
-### TestGetUserSelection.cs
+### TestGetUserSelection.cs <!-- omit in toc --> 
 
 ![TestGetUserSelection](images/TestGetUserSelectionRunTest.png)
 
@@ -122,7 +134,7 @@ follow:
 5. Otherwise, perform another check
 6. When you've performed enough checks, return true
 
-### TestLoadFile.cs
+### TestLoadFile.cs <!-- omit in toc --> 
 
 The `TestLoadFile.TestRun()` method accepts any string as input. If the string is
 not a valid file, the method throws an exception. If the string is a valid file,
@@ -134,7 +146,7 @@ One thing to note here is the `try` and `catch` syntax which we have not covered
 in class. All you need to know is that this code allows us to detect if an
 exception occurred without crashing the program. We can use this to write tests.
 
-### TestGetUserSelection.cs
+### TestGetUserSelection.cs <!-- omit in toc --> 
 
 The `TestGetUserSelection.TestRun()` method displays a list to the screen and
 then asks the user to enter a number. Then, the number must be an index within
