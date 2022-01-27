@@ -130,6 +130,12 @@ become incredibly important: The expectation is that during these two weeks, you
 are spending at least 2 hours of time outside of class each week on your
 project.
 
+For your personal project, you should follow this work flow:
+
+1. Create Method Stubs: [LINK](CreateMethodStubs.md)
+2. Write Method Tests: [LINK](WriteMethodTests.md)
+3. Put it all together: Coming Soon
+
 ## Part 3: Written Response
 
 After you have finished your project. You will complete a written response which
