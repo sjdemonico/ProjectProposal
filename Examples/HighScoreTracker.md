@@ -30,37 +30,37 @@ At a high level the High Score Tracker in the following way:
 
 ![High Score Tracker High Level](../images/HighScoreTracker-Flowchart.png)
 
-## Methods
+## Functions
 
 The process for maintaining a High Score list in a text file is a little
-complex. To help with this, I've chosen to break it into these 4 helper methods:
+complex. To help with this, I've chosen to break it into these 4 helper functions:
 
-* `static List<int> LoadScoreValues(string filename);`
-* `static int GetScoreValue(string score);`
-* `static int FindInsertionPoint(List<int> values, int newScore);`
-* `static void AddScore(String name, int score, int insertAt, List<String> scores);`
+* `LoadScoreValues(filename);`
+* `GetScoreValue(score);`
+* `FindInsertionPoint(values, newScore);`
+* `AddScore(name, score, insertAt, scores);`
 
-### List<int> LoadScoreValues(string filename)
+### LoadScoreValues(filename)
 
 The scores.txt file is stored in two columns. The first column is the players
-name and the second column is the players score. This method loads the file and
-extracts the second column into a `List<int>`.
+name and the second column is the players score. This function loads the file and
+extracts the second column into a `List`.
 
 
 ![GetRandomWord](../images/HighScoreTracker-LoadScoreValues.png)
 
 1. Check to see if the specified filename exists.
 2. If it does not, throw an exception stating the file cannot be loaded
-3. Load the file as a List<string> and store it in a variable named, "lines"
-4. Create a List<int> called values.
+3. Load the file as a List and store it in a variable named, "lines"
+4. Create a List called values.
 5. Loop through each line
-   * For each line, use GetScoreValue to extract the second column as an `int`
-   * Add the `int` to `values` 
+   * For each line, use GetScoreValue to extract the second column
+   * Add the score to `values` 
 6. Return `values`
 
-### int GetScoreValue(string score)
+### GetScoreValue(score)
 
-This is a helper method which, given a score string of the format "name score",
+This is a helper function which, given a score string of the format "name score",
 extracts the score value from the second column, parses it into an int value,
 and finally returns it.
 
@@ -68,10 +68,10 @@ and finally returns it.
 
 1. Split the specified score string into two strings using `' '` as a delimiter
 2. Store the result in a variable called `parts`
-3. Parse the second element as an int `int.Parse(parts[1])`
+3. Parse the second element as an int `int(parts[1])`
 4. Return the result
 
-### int FindInsertionPoint(List<int> values, int newScore)
+### FindInsertionPoint(values, newScore)
 
 Given a list of score values and a newScore to insert into the high scores
 table, returns the index where the new score should be inserted.
@@ -87,7 +87,7 @@ table, returns the index where the new score should be inserted.
 3. If we reach the end of the list, `insertAt` should be the length of the list
    so we return `insertAt`.
 
-### void AddScore(string name, int score, int insertAt, List<string> scores);
+### AddScore(name, score, insertAt, scores);
 
 Given the name, score, insertion location, and a list of strings containing the
 current high scores, inserts the name and score at the specified location. Then
@@ -99,4 +99,4 @@ writes the results to "scores.txt".
    score list.
 2. Assign `entry` to be `$"{name} {score}"`
 3. Insert `entry` into `scores` at the index `insertAt`
-4. Use `File.WriteLines` to write each line of the `scores` list to the file "scores.txt"
+4. Use `write()` to write each line of the `scores` list to the file "scores.txt"
