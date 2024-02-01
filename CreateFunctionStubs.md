@@ -37,7 +37,6 @@ def GetRandomWord()
    #    a variable called `ix`
    # 4. Return the word at position `ix`. (e.g. `words[ix]`)
     return 0
-}
 ```
 
 ### Example: FindInsertionPoint(values, newScore)
