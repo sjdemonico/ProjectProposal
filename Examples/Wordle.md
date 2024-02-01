@@ -29,13 +29,12 @@ At a high level the game works in the following way:
 
 ![Wordle High Level](../images/WordleHigh.png)
 
-## Methods
+## Functions
 
 The process for generating a random word and handling the player's guess is a
 little complex. To help with this, I've chosen to break these down into 4 helper
-methods: `void GetRandomWord()`, `string GetGuess(string correctWord)`, `void DisplayInfo(string
-guess, string correct)`, and `void DisplayCharInfo(char guess, int pos, string
-correct)`
+functions: `GetRandomWord()`, `GetGuess(correctWord)`, `DisplayInfo(guess, correct)`,
+and `DisplayCharInfo(guess, pos, correct)`
 
 ### GetRandomWord()
 
@@ -43,13 +42,13 @@ Randomly generates a random word to be guessed.
 
 ![GetRandomWord](../images/GetRandomWord.png)
 
-1. Load a filed called `words.txt`
+1. Load a file called `words.txt`
 2. Store each line as a separate word in a list named `words`
-3. Generate a random number between 0 and `words.Count` and store the result in
+3. Generate a random number between 0 and `len(words` and store the result in
    a variable called `ix`
 4. Return the word at position `ix`. (e.g. `words[ix]`)
 
-### string GetGuess(string correctWord)
+### GetGuess(correctWord)
 
 Asks the user to make a guess and validates the input before returning the
 guess.
@@ -62,7 +61,7 @@ guess.
    same length), return the guess.
 4. Otherwise, display an error message and ask them to make another guess.
 
-### void DisplayInfo(string guess, string correct)
+### DisplayInfo(guess, correct)
 
 Given a guess and the correct word to be guessed, displays the guess to the
 screen coloring each character based on its position and if it is in the correct
@@ -73,9 +72,9 @@ word.
 1. Validate that the guess and correct word are the same length
 2. If the lengths do not match, throw an exception
 3. If they match, iterate through each character:
-    * Use the `DisplayCharInfo` method to determine what color to print the character
+    * Use the `DisplayCharInfo` function to determine what color to print the character
 
-### void DisplayCharInfo(char guess, int pos, string correct)
+### void DisplayCharInfo(guess, pos, correct)
 
 Given a guessed character, the position of that guess, and the correct word,
 select the correct color for the guess and write it to the console.
