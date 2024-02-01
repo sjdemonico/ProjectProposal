@@ -36,7 +36,7 @@ used to manage complexity in your program.
 The first program code segment must show how data have been stored in the list.
 
 ```python
-// TODO: Copy The line of code here for which you are adding data to a list
+# TODO: Copy The line of code here for which you are adding data to a list
 ```
 
 ### 3b ii.
@@ -46,7 +46,7 @@ such as creating new data from the existing data or accessing multiple elements
 in the list, as part of fulfilling the program's purpose.
 
 ```python
-// TODO: Show a foreach loop accessing each element of the list from 3bi
+# TODO: Show a foreach loop accessing each element of the list from 3bi
 ```
 
 ### 3b iii.
@@ -88,7 +88,7 @@ The first program code segment must be a student-developed procedure that:
 - [ ] Implements an algorithm that includes sequencing, selection, and iteration
 
 ```python
-// TODO: Select a function that meets all of the requirements.
+# TODO: Select a function that meets all of the requirements.
 ```
 
 ### 3c ii.
@@ -96,7 +96,7 @@ The first program code segment must be a student-developed procedure that:
 The second program code segment must show where your student-developed procedure is being called in your program.
 
 ```python
-// TODO: Add code showing where the procedure is being called
+# TODO: Add code showing where the procedure is being called
 ```
 
 ### 3c iii.
