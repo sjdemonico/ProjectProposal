@@ -35,7 +35,7 @@ used to manage complexity in your program.
 
 The first program code segment must show how data have been stored in the list.
 
-```csharp
+```python
 // TODO: Copy The line of code here for which you are adding data to a list
 ```
 
@@ -45,7 +45,7 @@ The second program code segment must show the data in the same list being used,
 such as creating new data from the existing data or accessing multiple elements
 in the list, as part of fulfilling the program's purpose.
 
-```csharp
+```python
 // TODO: Show a foreach loop accessing each element of the list from 3bi
 ```
 
@@ -87,15 +87,15 @@ The first program code segment must be a student-developed procedure that:
 - [ ] Contains and uses one or more parameters that have an effect on the functionality of the procedure
 - [ ] Implements an algorithm that includes sequencing, selection, and iteration
 
-```csharp
-// TODO: Select a method that meets all of the requirements.
+```python
+// TODO: Select a function that meets all of the requirements.
 ```
 
 ### 3c ii.
 
 The second program code segment must show where your student-developed procedure is being called in your program.
 
-```csharp
+```python
 // TODO: Add code showing where the procedure is being called
 ```
 
@@ -103,7 +103,7 @@ The second program code segment must show where your student-developed procedure
 
 Describes in general what the identified procedure does and how it contributes to the overall functionality of the program.
 
-**TODO: Explain at a high level what this method does and when it is called**
+**TODO: Explain at a high level what this function does and when it is called**
 
 ### 3c iv.
 
