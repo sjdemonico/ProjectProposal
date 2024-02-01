@@ -11,7 +11,6 @@ an AP Computer Science Principles project submission.
   page: [LINK](https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam)
 
 - [Project Overview](#project-overview)
-  - [Part 0: Create a Repository for your Project](#part-0-create-a-repository-for-your-project)
   - [Part 1: Write a Proposal](#part-1-write-a-proposal)
     - [Example Proposals](#example-proposals)
     - [Proficient Requirements](#proficient-requirements)
@@ -20,22 +19,6 @@ an AP Computer Science Principles project submission.
   - [Part 2: Implement the project (~3 weeks)](#part-2-implement-the-project-3-weeks)
   - [Part 3: Written Response](#part-3-written-response)
   - [Project Ideas](#project-ideas)
-
-## Part 0: Create a Repository for your Project
-
-Before starting, you should create a repository for your project. If you're not
-sure how to do this, you can follow the steps here: [LINK](Setup.md)
-
-Here are the high level steps:
-
-1. Create a new repository (may be private)
-2. Add Mx. Collard as a Collaborator
-3. Clone the repository
-4. Create a development branch
-5. Initialize your project
-6. Commit and push your initialized project
-7. Create a pull request from `develop` to `main` branch
-8. Add Mx. Collard as a reviewer
 
 ## Part 1: Write a Proposal
 
@@ -62,13 +45,13 @@ Your project should meet all of these requirements:
 
 1. Uses a list to store an arbitrary number of elements
 2. Accepts user input
-3. Has at least one method that:
+3. Has at least one function that:
     * Requires at least 1 parameter
     * Validates the input
     * Throws an exception if the input is not valid
     * Contains a loop that iterates (no `while(false)` loops)
     * Is a significant part of your overall program
-4. Iterates over the list from #1. This can be done in your method for #3.
+4. Iterates over the list from #1. This can be done in your function for #3.
     * Alternatively, you can randomly select items from the list 
 
 ### Advanced Requirements
@@ -98,43 +81,38 @@ from one part of your program to the next. This will start as a draft and you
 will likely make revisions throughout the project to match any changes you make
 during implementation.
 
-#### Methods <!-- omit in toc --> 
+#### Functions <!-- omit in toc --> 
 
 After you have a high level flowchart of your project, find the complex sections
-and break these out to create sub flowcharts. These will be your methods. You
+and break these out to create sub flowcharts. These will be your functions. You
 should get as detailed as possible in each of these flowcharts breaking down the
 process to the simplest commands. If you find the flowchart becoming complex,
 consider breaking it into two or more sub flowcharts that are used to complete
 the goal.
 
-For each method flowchart, come up with a method signature and a comment. Use
+For each function flowchart, come up with a function header and a comment. Use
 the following questions as a guide:
 
-1. What data do I need to pass to this method?
+1. What data do I need to pass to this function?
 2. What are valid inputs?
-3. What does the method accomplish?
-4. What (if any) does this method return (produce)?
-5. At a high level, what does this method do?
-6. Based on #5, what is a short name I can give this method?
+3. What does the function accomplish?
+4. What (if any) does this function return (produce)?
+5. At a high level, what does this function do?
+6. Based on #5, what is a short name I can give this function?
 
 Finally, in English, write a step-by-step detailed explanation describing how
-this method will be implemented.
+this function will be implemented.
 
 ## Part 2: Implement the project (~3 weeks)
 
-You will receive roughly 4 block periods over the course of 3 weeks of in class
-time to work on this project (about 5 hours). This will almost certainly not be
-enough time to complete the entire project without coming prepared to class with
-questions / specific goals for progress. This is where your student log will
-become incredibly important: The expectation is that during these two weeks, you
-are spending at least 2 hours of time outside of class each week on your
-project.
+You will receive 4 to 5 patterns of in class time to work on this project (about 
+5 hours). This will almost certainly not be enough time to complete the entire 
+project without coming prepared to class with questions / specific goals for 
+progress. The expectation is that during this project, you are spending at least 
+3 hours of time outside of class each week on your project.
 
-For your personal project, you should follow this work flow:
-
-1. Create Method Stubs: [LINK](CreateMethodStubs.md)
-2. Write Method Tests: [LINK](WriteMethodTests.md)
-3. Put it all together: Coming Soon
+For your personal project, you should follow this function creation guide:
+Create Function Stubs: [LINK](CreateFunctionStubs.md)
 
 ## Part 3: Written Response
 
@@ -151,7 +129,7 @@ following project ideas. **Note**: Each of the projects could range greatly in
 difficulty depending on how it is implemented. However, an attempt to sort them
 into difficulty categories was made. You should however take this with a grain
 of salt as a Level 1 project could easily become a Level 3+ project without
-properly scoping the project. Be sure to talk it through with Mx. Collard to get a
+properly scoping the project. Be sure to talk it through with Mr. DeMonico to get a
 solid idea of how to meet the proficient requirements.
 
 ### Level 1 <!-- omit in toc --> 
