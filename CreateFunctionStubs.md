@@ -81,14 +81,12 @@ called `GetPositiveInt(prompt)` which accepts a string and returns an
 `int`. The documentation comment for this function would look like this:
 
 ```python
-# <summary>
 # Given a prompt to show to the user, displays the prompt then reads
 # input from the keyboard until the user enters a positive number. If
 # the user enters a non-positive number, this function displays an error
 # message and prompts the user again.
-# </summary>
-# <param name="prompt">The message to display to the user</param>
-# <returns>The positive number the user chose</returns>
+# "prompt": The message to display to the user
+# returns: The positive number the user chose
 def GetPositiveInt(prompt)
     return -1
 ```
