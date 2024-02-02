@@ -103,7 +103,7 @@ the following questions as a guide:
 Finally, in English, write a step-by-step detailed explanation describing how
 this function will be implemented.
 
-## Part 2: Implement the project (~3 weeks)
+## Part 2: Implement the project (~2 weeks)
 
 You will receive 4 to 5 patterns of in class time to work on this project (about 
 5 hours). This will almost certainly not be enough time to complete the entire 
