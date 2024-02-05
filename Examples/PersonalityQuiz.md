@@ -30,26 +30,26 @@ At a high level, the Personality Quiz works in the following way:
 
 ![Personality Quiz](../images/PersonalityQuiz.png)
 
-## Methods and Classes
+## Functions
 
 The Personality Quiz has several complexities. To help manage this, I have
-chosen to create a `Question` class as well as breaking my program's logic 
-into 3 methods: 
+chosen to create a `Question` list as well as breaking my program's logic 
+into 3 functions: 
 
-* `static int AskQuestion(Question)`
-* `static int GetValidAnswer(List<string> answers);`
-* `static string GetResult(List<int> scores, List<string> results);`
+* `AskQuestion(question)`
+* `GetValidAnswer(answers);`
+* `static string GetResult(scores, results);`
 
-### Question Class
+### Question List
 
 For this program, it is important to group together the question and answers. To
-manage this, I've created a class which has two properties: a `string Question`
-which will be the question being asked and a `List<string> Answers` which will
+manage this, I've created a List of tuples, and each tuple contains: a `Question` string
+which will be the question being asked and an `Answers` List which will
 be a list of the possible answers to that questions.
 
 ![Question Class](../images/PersonalityQuizQuestionClass.png)
 
-### static int AskQuestion(Question q)
+### AskQuestion(q)
 
 Displays the specified question along with each of its answers. Then, prompts
 the user to select one of the answers. Finally, returns the index of the answer
@@ -59,11 +59,11 @@ the player selected.
 
 1. Display the question
 2. Loop through each answer and display it
-3. Use the `GetValidAnswer` method to get the user's response
+3. Use the `GetValidAnswer` function to get the user's response
 4. Return the user's response
 
 
-### static int GetValidAnswer(List<string> answers)
+### GetValidAnswer(answers)
 
 Given a list of answers, prompts the user to enter a number corresponding to one
 of the answers. If the user enters a number that is not within the specified
@@ -81,7 +81,7 @@ range, the user is asked to enter another value.
    * Go to 3
 7. Otherwise, return the user's choice. 
 
-### static string GetResult(List<int> scores, List<string> results);
+### GetResult(scores, results);
 
 Given two lists, one representing the scores for each possible result and one
 representing each possible result, determines which score is the highest and
