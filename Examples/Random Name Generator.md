@@ -32,20 +32,19 @@ At a high level, the Random Name Generator works in the following way:
 
 ![Random Name Generator High Level](../images/RandomNameHighLevel.png)
 
-## Methods
+## Functions
 
 To help manage the complexity of the program, I have chosen to write two helper
-methods:
+functions:
 
-* `int GetPositiveInt(string prompt);`
-* `string GenerateRandomName(List<string> firstNames, List<string> midNames,
-  List<string> lastNames);`
+* `GetPositiveInt(prompt);`
+* `GenerateRandomName(firstNames, midNames, lastNames);`
 
-### int GetPositiveInt(string prompt);
+### GetPositiveInt(prompt);
 
 Given a prompt to show to the user, displays the prompt then reads input from
 the keyboard until the user enters a positive number. If the user enters a
-non-positive number, this method displays an error message and prompts the user again.
+non-positive number, this function displays an error message and prompts the user again.
 
 ![Get Positive Int](../images/RandomNameGetPOsitiveInt.png)
 
@@ -57,8 +56,7 @@ non-positive number, this method displays an error message and prompts the user 
    * Go to step 2
 5. Otherwise, return the users input 
 
-### string GenerateRandomName(List<string> firstNames, List<string> midNames,
-  List<string> lastNames);
+### GenerateRandomName(firstNames, midNames, lastNames);
 
 Given a list of first, middle, and last names, generate a random name using one
 entry from each list.
@@ -66,9 +64,9 @@ entry from each list.
 ![Generate Random Name](../images/RandomNameGenerateName.png)
 
 1. Create a random number generator
-2. Generate a random number, firstIndex, between 0 and firstNames.Count
-3. Generate a random number, midIndex, between 0 and midNames.Count
-4. Generate a random number, lastIndex, between 0 and lastNames.Count
+2. Generate a random number, firstIndex, between 0 and firstNames.count()
+3. Generate a random number, midIndex, between 0 and midNames.count()
+4. Generate a random number, lastIndex, between 0 and lastNames.count()
 5. Combine the names together
    * `firstNames[firstIndex] + " " + midNames[midIndex] + " " + lastNames[lastIndex];`
 6. Return the name
