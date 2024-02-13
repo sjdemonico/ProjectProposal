@@ -63,7 +63,7 @@ challenge yourself to learn and grow.
 ### Proposal Format
 
 Your proposal will have 3 main sections: Overview, High Level Flowchart, and
-Methods. Below you will find an overview of each section:
+Functions. Below you will find an overview of each section:
 
 #### Overview <!-- omit in toc --> 
 
