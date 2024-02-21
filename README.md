@@ -49,7 +49,7 @@ Your project should meet all of these requirements:
     * Requires at least 1 parameter
     * Validates the input
     * Throws an exception if the input is not valid
-    * Contains a loop that iterates (no `while(false)` loops)
+    * Contains a loop that iterates 
     * Is a significant part of your overall program
 4. Iterates over the list from #1. This can be done in your function for #3.
     * Alternatively, you can randomly select items from the list 
