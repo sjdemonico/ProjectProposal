@@ -1,4 +1,4 @@
-# Guessing Game Written Response
+# Written Response Template
 
 The format for this document are taken directly from the AP Computer Science
 Principles [Student Handout](../support/ap-csp-student-task-directions.pdf).
