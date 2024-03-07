@@ -46,7 +46,7 @@ such as creating new data from the existing data or accessing multiple elements
 in the list, as part of fulfilling the program's purpose.
 
 ```python
-# TODO: Show a foreach loop accessing each element of the list from 3bi
+# TODO: Show a loop accessing each element of the list from 3bi
 ```
 
 ### 3b iii.
